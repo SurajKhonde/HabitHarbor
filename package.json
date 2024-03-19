@@ -1,0 +1,32 @@
+{
+  "homepage": "https://SurajKhonde.github.io/HabitHarbor",
+  "version": "1.0.0",
+  "description": "This is Mern stack and dedicated to my younger brother who is preparing for Upsc exam. may be this app help him to keep away  from ads and color",
+  "scripts": {
+    "predeploy": "rd /s /q dist && parcel build index.html --public-url https://SurajKhonde.github.io/HabitHarbor/",
+    "deploy": "gh-pages -d dist",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Surajk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  }
+}

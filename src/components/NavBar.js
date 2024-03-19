@@ -17,7 +17,7 @@ export default function Navbar() {
       <div className="flex flex-col justify-between pl-5 h-screen sticky top-0">
         <ul>
            <li className="mb-8">
-            <Link to="/home">
+            <Link to="/">
               <img src="https://res.cloudinary.com/demjvtd9v/image/upload/v1709388316/user/newPICS_gbq6bs.png" alt="logo" className="h-14 p-2" />
             </Link>
           </li> 
